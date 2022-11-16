@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <style type="text/css">
+        table { width: 70%;
+                border: 1px solid black;
+                background-color: aquamarine;}
+        h1 {text-align: center;}
+        td {background-color: aquamarine;}
+        textarea {background-color: lightblue;}
+        tr {background-color: aquamarine;}
+        input {background-color: lightblue;}
+        body {background-color:darkgrey;}
+        </style>
+        <title>İŞ BAŞVURU</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>İŞ BAŞVURU VE BİLGİ FORMU</h1>
+        <table align="center">
+            <form action="" method="get">
+            <tr>
+                <td colspan="4">İŞ BAŞVURUSUNDA BULUNANIN</td>
+                <td>Tarih <input type="text" name="tarih"></td>
+            </tr>
+            <tr>
+                <th>KİMLİK BİLGİLERİ</th>
+            </tr>
+            <tr>
+            <td>Ad ve Soyad:</td>
+            <td><input type="text" name="adsoyad" id=""></td>
+        </tr>
+          <td>Doğum Yeri ve Tarihi:</td>
+          <td><input type="text" name="doğumyeritarihi" id=""></td>
+        <tr>
+        <td>Cinsiyet:</td>
+        <td><input type="radio" name="cinsiyet" value="e"> Erkek
+            <input type="radio" name="cinsiyet" value="k"> Kadın</td>
+        </tr>
+        <tr>
+        <td>Adres:</td>
+        <td><textarea name="adres" id="" cols="20" rows="5"></textarea></td>
+        </tr>
+        <tr>
+          <td>Telefon Numarası:</td>
+          <td><input type="text" name="telefon" id=""></td>
+        </tr>
+        <tr>
+           <td>Askerlik Durumu:</td>
+           <td><input type="radio" name="askerlik" value="t"> Tecilli
+            <input type="radio" name="askerlik" value="m"> Muaf
+            <input type="radio" name="askerlik" value="y"> Yapıldı
+        </td>
+        </tr>
+        <tr>
+        <td>Tecilli ise Tecil Tarihi:</td>
+        <td><input type="text" name="tecil" id=""></td>
+        </tr>
+        <tr>
+        <td>TC Kimlik Numarası:</td>
+        <td><input type="text" name="kimlik" id=""></td>
+        </tr>
+        <tr>
+        <td>Kan Grubu:</td>
+        <td><input type="text" name="kan" id=""></td>
+        </tr>
+        <tr>
+            <td>Medeni Hali:</td>
+            <td><input type="radio" name="medenihal" value="e"> Evli
+                <input type="radio" name="medenihal" value="b"> Bekar
+                <input type="radio" name="medenihal" value="d"> Dul</td>
+            </tr> 
+        <tr>
+           <th>AİLE BİLGİLERİ</th>
+           <td>Adı-Soyadı</td>
+           <td>Yaşı</td>
+           <td>Mesleği</td>
+           <td>Öğrenim Seviyesi</td>
+        </tr>   
+            <td>Eş</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        <tr>
+            <td>Anne</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Baba</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Çocuklar</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>1-</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>2-</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>3-</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>EĞİTİM BİLGİLERİ</th>
+            <td>Okul Adı</td>
+            <td>Bölümü</td>
+            <td>Derecesi</td>
+        </tr>
+        <tr>
+            <td>İlkÖğretim</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Lise</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>YüksekÖğrenim</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Lisans Üstü</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Bildiğiniz Yabancı Dilleri İşaretleyin</td>
+            <td><input type="checkbox" name="diller[]" value="motosiklet"> İngilizce</td>
+            <td><input type="checkbox" name="diller[]" value="film"> Fransızca</td>
+            <td><input type="checkbox" name="diller[]" value="yüzme"> Almanca</td>
+            <td><input type="checkbox" name="diller[]" value="resim"> Rusça</td>
+        </tr>
+        <tr>
+            <td>Bildiğiniz Ekstra Dil Varsa Derecesi</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+        <td colspan="5" align="center"><input type="submit" value="gönder"></td>
+        </tr>
+    </form>
+        </table>
+    </body>
+</html>
