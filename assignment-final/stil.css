@@ -1,0 +1,225 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(245,245,245,1) 55%, rgba(245,245,245,1) 100%);
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    height: auto;
+    background: linear-gradient(90deg, rgb(5, 2, 61) 0%, rgba(9,9,121,1) 35%, rgb(30, 162, 188) 100%);
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    width: auto;
+}
+
+#header a {
+    font-family: tahoma;
+    color: white;
+    transition: all 0.5s linear;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+#header a:hover {
+    color: orange;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+#section {
+    width: 23%;
+    height: 3000px;
+    float: left;
+}
+
+#content {
+    width: 77%;
+    height: 3000px;
+    float: right;
+}
+
+#footer {
+    width: 100%;
+    height: 75px;
+    clear: both;
+}
+
+#aside {
+    position: sticky;
+    text-align: center;
+    top: 75px;
+    float: left;
+}
+
+#aside a {
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#aside a:hover {
+    color: blue;
+}
+
+ol {list-style: none;}
+
+li {height: 40px;
+    font-size: 20px;}
+
+h1{
+    font-size: 35px;
+    font-family: tahoma;
+    color: rgb(75, 75, 75);
+}
+
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(81, 80, 80);
+}
+
+h2 {
+    font-size: 25px;
+    font-family: tahoma;
+    color: rgb(75, 75, 75);
+}
+
+.elementler li {
+    color: rgb(75, 75, 75);
+}
+
+.elementler h1 {
+    font-size: 25px;}
+
+.elementler h2 {
+    text-align: center;
+}
+
+.elementler {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(245,245,245,1) 55%, rgba(245,245,245,1) 100%);
+}
+
+.elementler p {
+    text-align: justify;
+}
+
+#sectionelement {
+    width: 23%;
+    height: 3300px;
+    float: left;
+}
+
+#contentelement {
+    width: 77%;
+    height: 3300px;
+    float: right;
+}
+
+#sectionbilim {
+    width: 23%;
+    height: 7800px;
+    float: left;
+}
+
+#contentbilim {
+    width: 77%;
+    height: 7800px;
+    float: right;
+}
+
+#sectionhaber {
+    width: 20%;
+    height: 7000px;
+    float: left;
+}
+
+#contenthaber {
+    width: 80%;
+    height: 7000px;
+    float: right;
+}
+
+#contenthaber a {
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;}
+
+#contenthaber a:hover {
+    color: red;
+}
+
+#section1 {
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+
+#content1 {
+    width: 100%;
+    height: 800px;
+}
+
+#section2 {
+    width: 30%;
+    height: 750px;
+    float: left;
+}
+
+#content2 {
+    width: 100%;
+    height: 1200px;
+}
+
+#contentbilim a {
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;}
+
+#contentbilim a:hover {
+    text-decoration: none;
+    color: red;
+    font-size: 22px;}
+
+html {
+    scroll-behavior:smooth;}
+
+#footer img {
+    margin: 30px;
+    width: 75px;
+}
+
+#footer p {
+    text-align: center;
+    color: aliceblue;
+}
+
+#footer {
+    height: auto;
+    background: linear-gradient(90deg, rgb(7, 35, 104) 0%, rgb(9, 89, 121) 25%, rgb(30, 162, 188) 60%);
+}
+
+hr {
+    border: none;
+    border-bottom: 2px solid rgb(0, 123, 255);
+    width: 600px;
+    text-align: left;
+    margin-left: 0px;
+    background: none;
+}
+
+#bilimtable {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+#bilimtable td {
+    padding: 20px;
+}
